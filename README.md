@@ -38,11 +38,12 @@ Displays Form For Entering Name and Email
  <li>OUTPUT:"Submits the Form"</li>
         </ul>
  # SETUP INSTRUCTIONS
-   <li>The project requires jquery effects so as to link the html file and the file itself inorder to create a fictional output.</li>
+ <li>The project requires jquery effects so as to link the html file and the file itself inorder to create a fictional output.</li>
    <li>It also links when you as the user fill the form you will be able to receive a Thankyou! output note from its source</li>
    <li>It also requires one to link the js file and the html file so as it will be able run smoothly.</li>
- # THE PROJECT LICENSE IS UNDER MIT
- MIT License
+   # THE PROJECT LICENSE IS UNDER MIT
+   
+   MIT License
 
 Copyright (c) 2020 jimmy-oss
 
