@@ -43,6 +43,7 @@ Displays Form For Entering Name and Email
    <li>It also links when you as the user fill the form you will be able to receive a Thankyou! output note from its source</li>
    <li>It also requires one to link the js file and the html file so as it will be able run smoothly.</li>
  # THE PROJECT LICENSE IS UNDER MIT
+ 
  MIT License
 
 Copyright (c) 2020 jimmy-oss
