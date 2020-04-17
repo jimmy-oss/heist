@@ -2,6 +2,7 @@
 Jimmy-oss
 # PROJECT NAME
 The Delani studio
+![my screen](./screenshot/screen.png)
 # DESCRIPTION 
 Project to create a landing page for a fictional design studio. 
 The site illustrates what projects are done by the design studio.
