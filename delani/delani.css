@@ -1,0 +1,289 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+/*--- HEADER SECTION --- */
+
+#header {
+  background-image: url(../backgrounds/pic1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: relative;
+}
+
+#logo {
+  padding-top: 20%;
+  margin-bottom: 5%;
+}
+
+.container-fluid h1 {
+  text-align: center;
+  font-family: Catamaran;
+  font-size: 40px;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.container-fluid p {
+  text-align: center;
+  font-family: Catamaran;
+  font-size: 20px;
+  color: white;
+}
+
+.btn-about {
+  padding: 20px 25px;
+  color: white;
+  margin-top: 60px; 
+  margin-bottom: 30px;
+}
+
+/*--- ABOUT US SECTION --- */
+
+.about-us h2 {
+  color: #111;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Catamaran;
+  font-size: 30px;
+  position: relative;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.about-us p {
+  color: #111;
+  font-family: Catamaran;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+/*--- SERVICES SECTION --- */
+
+#services {
+  background-image: url(../backgrounds/pic3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: relative;
+}
+
+#services h2 {
+  color: white;
+  text-align: center;
+  font-family: Catamaran;
+  font-size: 30px;
+  position: relative;
+  padding-top: 120px;
+  font-weight: bold;
+}
+
+#services p {
+  color: white;
+  font-family: Catamaran;
+  font-size: 20px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+
+}
+
+/*--- WHAT WE DO SECTION --- */
+
+.description {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.description h2 {
+  position: relative;
+  font-family: Catamaran; 
+  font-size: 30px;
+  color: #111;
+  font-weight: bold;                                        
+}
+
+.what h5 {
+  font-family: Catamaran;
+  font-size: 20px;
+  color: #111;
+  font-weight: bold;
+}
+
+.what {
+  width: 33.3333333333%;
+  display: inline-block;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-family: Catamaran;
+  font-size: 15px;
+  color: #111;
+}
+
+.hide {
+  display: none;
+}
+
+.what p {
+  font-family: Catamaran;
+  font-size: 20px;
+  color: #111;
+}
+
+/*--- PORTFOLIO SECTION --- */
+
+.card-deck {
+  padding: 1px 4px;
+}
+
+#portfolio {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#portfolio h2 {
+  font-family: Catamaran;
+  font-size: 30px;
+  color: #111;
+  padding-top: 50px;
+  margin-top: 0;
+  position: relative;
+  font-weight: bold;
+}
+
+#portfolio img {
+  width: 100%;
+}
+
+.card {
+  margin: 10px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover img {
+  transform: scale(1.2);
+  transition: all 0.25s ease;
+}
+
+.card-1 {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  background: rgba(0, 0, 0, 582);
+  cursor: pointer;
+  display: none;
+  transition: all 0.5s ease;
+}
+
+.ptag {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 100px 10px;
+  font-weight: bold;
+  border: 3px solid whitesmoke;
+  font-size: 1.1rem;
+  line-height: 90%;
+  margin: 5% 5%;
+  overflow: hidden;
+  letter-spacing: 2px;
+  font-family: Catamaran;
+}
+
+@media screen and (max-width:450px) {
+  .form-cont input {
+      width: 100%;
+      margin-top: 10px;
+  }
+  body {
+      overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  * {
+      font-size: calc(1vw+1vh+.5vmin);
+  }
+}
+
+/*--- CONTACT SECTION --- */
+
+.form-contact input  {
+  width: 47%;
+  background: transparent;
+  margin: 10px 5px;
+}
+
+.form-contact textarea  {
+  margin-top: 10px;
+  width: 100%;
+  background: transparent;
+}
+
+#contact {
+  background-image: url(../backgrounds/pic2.jpg);
+  background-size: cover;
+  background-position: cover;
+  padding-top: 100px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.form-contact {
+  text-align: center;
+  position: relative;
+  width: 900px;
+  max-width: 100%;
+  left: 50%;
+  transform: translate(-50%);
+  padding-bottom: 30px;
+}
+
+::placeholder {
+  font-size: 15px;
+  padding-left: 5px;
+  color: #fff;
+}
+
+.form-contact h2 {
+  padding-bottom: 60px;
+  font-weight: bold;
+  color: #fff;
+  font-family: Catamaran;
+  font-size: 30px;
+}
+
+/*--- SOCIAL LINKS SECTION --- */
+
+.social img {
+  border-radius: 50%;
+  transition: all 0.5s ease-out;
+  margin: 10px 5px;
+}
+
+.social img:hover {
+  box-shadow: 0 0 20px #333;
+  margin: -2px;
+  padding: 2px;
+  background-color: lightsteelblue;
+}
+
+/*--- FOOTER SECTION --- */
+
+.footer p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Catamaran;
+  color: #111;
+  font-size: 15px;
+  padding-top: 20px;
+}
