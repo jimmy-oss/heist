@@ -1,5 +1,5 @@
 # AUTHORS NAME
-jimmy-oss
+Jimmy-oss
 # PROJECT NAME
 The Delani studio
 # DESCRIPTION 
@@ -7,30 +7,39 @@ Project to create a landing page for a fictional design studio.
 The site illustrates what projects are done by the design studio.
 It includes a portfolio of some of their projects, and a detailed description of what they do from inception to completion of the project.
 The website incorporates bootstrap styling, jQuery effects and also an embedded form from mail chimp API to track all the emails and messages from the site users.
-#   TECHNOLOGIES USED
- <td>html-program</td>
- <td>Css&bootstrap</td>
- <td>Javascript</td>
- <td>Jquery</td>
- <td>Mailchimp-AIP</td>
+# TECHNOLOGIES USED
+<ul>
+ <li>html-program</li>
+ <li>Css&bootstrap</li>
+ <li>Javascript</li>
+ <li>Jquery</li>
+ <li>Mailchimp-AIP</li>
+    </ul>
+ 
 # BEHAVIOUR DRIVEN DEVELOPMENT
 Displays Form For Entering Name and Email
-  <td>INPUT: "User's Name Entered"</td>
-  <td>INPUT: "User's Email Entered"</td>
-  <td>OUTPUT:"Displays to the user through a pop up that we have received their message and also thank them for contacting us"</td>
-      Displays an Error Message if Name Input Left Blank
-  <td>INPUT: ""</td>
-  <td>OUTPUT:"Displays Error Message"</td>
+    <ul>
+  <li>INPUT: "User's Name Entered"</li>
+  <li>INPUT: "User's Email Entered"</li>
+  <li>OUTPUT:"Displays to the user through a pop up that we have received their message and also thank them for contacting us"</li>
+        </ul>
+   Displays an Error Message if Name Input Left Blank
+      <ul>
+  <li>INPUT: ""</li>
+  <li>OUTPUT:"Displays Error Message"</li>
+       </ul>
   Displays an Error Message if Email Input Left Blank
- <td>INPUT: ""</td>
- <td>OUTPUT:"Display an Error Message"</td>
+      <ul>
+ <li>INPUT: ""</li>
+ <li>OUTPUT:"Display an Error Message"</li>
   Submit Form and Reset the Message on Click
- <td>INPUT: "Click Submit Button"</td>
- <td>OUTPUT:"Submits the Form"</td>
+ <li>INPUT: "Click Submit Button"</li>
+ <li>OUTPUT:"Submits the Form"</li>
+        </ul>
  # SETUP INSTRUCTIONS
-   <td>The project requires jquery effects so as to link the html file and the file itself inorder to create a fictional output.</td>
-   <td>It also links when you as the user fill the form you will be able to receive a Thankyou! output note from its source</td>
-   <td>It also requires one to link the js file and the html file so as it will be able run smoothly.</td>
+   <li>The project requires jquery effects so as to link the html file and the file itself inorder to create a fictional output.</li>
+   <li>It also links when you as the user fill the form you will be able to receive a Thankyou! output note from its source</li>
+   <li>It also requires one to link the js file and the html file so as it will be able run smoothly.</li>
  # THE PROJECT LICENSE IS UNDER MIT
  MIT License
 
