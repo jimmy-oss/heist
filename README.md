@@ -1,4 +1,4 @@
-      # THE DELANI STUDIO 
+ # THE DELANI STUDIO 
 ![my screenshot](./screenshot/screen.jpg)
 # AUTHORS NAME
 Jimmy-oss
